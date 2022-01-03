@@ -1,1 +1,8 @@
-img { align-self: flex-end }
+
+.text_center { text-align: center; }
+div { background-color: antiquewhite; border-style: dashed; border-color: cadetblue; }
+label { image-rendering:optimizeQuality;}
+
+a:link { color: brown;}
+a:visited { color: blue;}
+a:hover { color: blueviolet; background-color: aquamarine;}
