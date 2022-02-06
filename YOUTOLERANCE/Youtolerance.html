@@ -15,10 +15,10 @@
   <link rel="stylesheet" href="Youtolerance.css" type="text/css">
 </head>
 
-<body>
+<body style="background-color: antiquewhite;">
 
   <div class="header">
-    <img src="Agnelli_logo.png" width="200" class="logo">
+    <a href="https://agnelli.it"><img src="Agnelli_logo.png" width="200" class="logo"></a>
     <div class="header-right">
       <a class="active" href="#home">Sito Agnelli</a>
       <a href="#contact">Contact</a>
@@ -26,20 +26,30 @@
     </div>
   </div>
   
-  <div class="div" style="position: absolute; left: 300px; top: 150px;">
+  <div class="div">
+    
     <form>
 
-    <h2 class="text-center">Welcome to HelpMech!</h2>
+    <h2 style="text-align: center;">Welcome to HelpMech!</h2>
 
-    <label for="tol_geo"><img src="tolleranza_localizzazione.jpg"></label>
-    <a href="Tolleranze_Geometriche.html">Tolleranze Geometriche</a>
-      <br><br>
-    <label for="tol_dim"><img src="calibro_stilizzato.jpg" width="100"></label>
-    <a href="Tolleranze_Dimensionali.html">Tolleranze Dimensionali</a>
-      <br><br>
-    <label for="tol_dim"><img src="simbolo_rugosita.jpg" width="100"></label>
-    <a href="Rugosita.html">Rugosità</a>
-    </form>
+      <hr class="hr">
+
+    <label for="tol_geo"><a href="Tolleranze_Geometriche.html" ><img src="tolleranza_localizzazione.jpg" class="center"></a></label>
+    <a href="Tolleranze_Geometriche.html" ><p class="center_a">Tolleranze Geometriche</p></a>
+      
+    <hr class="hr"><br>
+
+    <label for="tol_dim"><a href="Tolleranze_Dimensionali.html"><img src="calibro_stilizzato.jpg" class="center" width="90"></a></label>
+    <a href="Tolleranze_Dimensionali.html"><p class="center_a">Tolleranze Dimensionali</p></a>
+      
+    <hr class="hr"><br>
+    
+    <label for="tol_dim"><a href="Rugosita.html" class="center_a"><img src="simbolo_rugosita.jpg" class="center" width="100"></a></label>
+    <a href="Rugosita.html" class="center_a"><p class="center_a">Rugosità</p></a>
+    
+      <p>Designed by:</p>
+      <p>Bortoluzzi Luca<br>  De Stefani Federico</p>
+  </form>
 
 
   </div>
